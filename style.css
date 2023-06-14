@@ -1,0 +1,204 @@
+.color {
+	background-color:red;
+}
+.image{
+	border: 2px solid gray;
+	background-image: url("Images/code.jpg");
+	width:300px;
+	height:200px;
+}
+
+.norepeat{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+		text-align:right;
+
+}
+.repeatx{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:500px;
+	background-repeat:repeat-x;
+		text-align:center;
+
+}
+.repeaty{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:500px;
+	background-repeat:repeat-y;
+		text-align:right;
+
+}
+.Attachment{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding: 50px 10px 100px;
+	background-attachment:scroll;
+
+}
+.fixed{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding: 50px 100px 0px 0px ;
+	background-attachment:fixed;
+	background-position:left center;
+	text-align:right;
+}
+.left{
+	color:black;
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	text-align:right;
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding: 50px 10px 100px;
+
+}
+
+.a{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding: 50px 10px 100px;
+
+}
+.b{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	padding: 50px 10px 100px;
+
+}
+.center{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	padding: 50px 10px 100px;
+
+}
+.c{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding: 50px 10px 100px;
+
+}
+.d{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	padding: 50px 10px 100px;
+
+}
+.right{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding: 50px 10px 100px;
+
+}
+.e{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding: 50px 10px 100px;
+
+}
+.f{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	padding: 50px 10px 100px;
+
+}
+
+.bg{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding: 50px 10px 100px;
+	background-attachment:scroll;
+background-size:auto;
+}
+.bgcover{
+	border: 7px solid gray;
+	background-image: url("Images/code.jpg");
+	width:600px;
+	height:200px;
+	background-repeat:no-repeat;
+	
+	padding: 50px 10px 100px;
+	background-attachment:cover;
+background-size:auto;
+}
+.linear{
+	border: 7px solid gray;
+	width:600px;
+	height:500px;
+	border-radius:50%;
+	margin: auto;
+	background-attachment:cover;
+	background-image:linear-gradient(270deg,#e66465, #9198e5, green);
+}
+.radial{
+	border: 7px solid gray;
+	width:600px;
+	height:500px;
+	border-radius:50%;
+	margin: auto;
+	background-attachment:cover;
+background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+.conical{
+	border: 7px solid gray;
+	width:600px;
+	height:500px;
+	border-radius:50%;
+	margin: auto;
+	background-attachment:cover;
+	background-image: conic-gradient(red, yellow, green);
+}
+
